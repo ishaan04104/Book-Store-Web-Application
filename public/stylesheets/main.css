@@ -8,7 +8,7 @@
 
 :root {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 10px;
   color: var(--color-text-light);
 }
 
@@ -17,9 +17,9 @@
 }
 
 body {
-  background: rgb(187, 215, 238);
+  background: rgb(116, 226, 241);
 }
-
+ 
 .container {
   max-width: 1200px;
   margin: auto;
@@ -28,11 +28,6 @@ body {
 
 .inner-container {
   margin: 0 2rem;
-}
-
-.page-header {
-  font-size: 2rem;
-  font-weight: 500;
 }
 
 .error-message {

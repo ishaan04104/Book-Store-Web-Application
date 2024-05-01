@@ -1,6 +1,19 @@
 <header>
   <nav class="header-nav">
-    <a class="header-title" href="/">Reader.<span>com</span></a>
+    <a class="header-title" href="/">
+      <h1 id="Header">Reader.<span id="comred">com</span></h1></a>
+    <style>
+
+      #Header{
+        color: black;
+        font-weight: bolder;
+    }
+
+    #comred{
+        color: red;
+    }
+
+    </style>
     <ul>
       <% if (user) { %>
         <li><a href="/authors">Authors</a></li>
@@ -9,6 +22,7 @@
         <li><a href="/books/new">Add Book</a></li>
         <% } else { %>
           <li><a href="/login">Log in</a></li>
+          <li><a href="/create">Create new Account</a></li>
         <% } %>
     </ul>
   </nav>
